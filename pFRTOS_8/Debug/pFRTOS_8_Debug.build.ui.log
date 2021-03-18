@@ -1,0 +1,25 @@
+2021-01-04T17:30:49.565840400255-17:30:49 **** Incremental Build of configuration Debug for project pFRTOS_8 ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/main.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/Oskar/workspace3/design_v7_wrapper_1/export/design_v7_wrapper_1/sw/design_v7_wrapper_1/freertos10_xilinx_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+000-'Finished building: ../src/main.c'
+000-' '
+000-'Building target: pFRTOS_8.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Oskar/workspace3/design_v7_wrapper_1/export/design_v7_wrapper_1/sw/design_v7_wrapper_1/freertos10_xilinx_domain/bsplib/lib -o "pFRTOS_8.elf"  ./src/main.o   -lm -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: pFRTOS_8.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size pFRTOS_8.elf  |tee "pFRTOS_8.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000- 229828	   3628	  81984	 315440	  4d030	pFRTOS_8.elf
+000-'Finished building: pFRTOS_8.elf.size'
+000-' '
+00255-
+17:30:52 Build Finished (took 3s.141ms)
+

@@ -1,0 +1,28 @@
+{
+  "version": "2019.2",
+  "applications": [],
+  "platforms": [
+    {
+      "name": "design_v7_wrapper_1"
+    }
+  ],
+  "systems": [
+    {
+      "name": "pFRTOS_8_system",
+      "platform": "C:/Users/Oskar/workspace3/design_v7_wrapper_1/export/design_v7_wrapper_1/design_v7_wrapper_1.xpfm",
+      "sysConfig": "design_v7_wrapper_1",
+      "applications": [
+        {
+          "name": "pFRTOS_8",
+          "platform": "C:/Users/Oskar/workspace3/design_v7_wrapper_1/export/design_v7_wrapper_1/design_v7_wrapper_1.xpfm",
+          "platformPath": "C:\\Users\\Oskar\\workspace3\\design_v7_wrapper_1\\export\\design_v7_wrapper_1",
+          "sysConfig": "design_v7_wrapper_1",
+          "domain": "freertos10_xilinx_domain",
+          "system": "pFRTOS_8_system"
+        }
+      ],
+      "platformPath": "C:\\Users\\Oskar\\workspace3\\design_v7_wrapper_1\\export\\design_v7_wrapper_1"
+    }
+  ],
+  "others": []
+}
