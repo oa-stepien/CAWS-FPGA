@@ -95,5 +95,3 @@ This project and README file would be updated as soon as I can, and giving bette
 
 Este proyecto y archivo README serán actualizados lo antes posible, dando mejor información y detalles del funcionamiento.
 
-## Contact
-Twitter: [@o_stepien](https://twitter.com/o_stepien)
